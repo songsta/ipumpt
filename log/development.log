@@ -1,0 +1,2369 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-19 19:32:53) [GET]
+  Session ID: b6f8d77d836fb8938b0ce5d550f42b4e
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stories" with {:method=>:get}):
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCREATE DATABASE `iPumpt_development` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_general_ci`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCREATE DATABASE `iPumpt_production` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_general_ci`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCREATE DATABASE `iPumpt_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_general_ci`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.050000)[0m   [0;1mSHOW FULL TABLES WHERE Table_type = 'BASE TABLE'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'ipumpt_development.schema_migrations' doesn't exist: SELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.080000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.451000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateExercises (20080723202417)
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.060000)[0m   [0;1mCREATE TABLE `exercises` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `description` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.030000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080723202417')[0m
+Migrating to CreatePrograms (20080723202611)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.221000)[0m   [0mCREATE TABLE `programs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `description` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.100000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080723202611')[0m
+Migrating to CreateWorkouts (20080723202815)
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.180000)[0m   [0;1mCREATE TABLE `workouts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `description` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.020000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080723202815')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `exercises`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW KEYS FROM `exercises`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `programs`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mdescribe `programs`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `programs`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `workouts`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW KEYS FROM `workouts`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW FULL TABLES WHERE Table_type = 'BASE TABLE'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW CREATE TABLE `exercises`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW CREATE TABLE `programs`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW CREATE TABLE `schema_migrations`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW CREATE TABLE `workouts`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mDROP DATABASE IF EXISTS `iPumpt_test`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCREATE DATABASE `iPumpt_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET foreign_key_checks = 0[0m
+  [4;35;1mSQL (0.070000)[0m   [0mCREATE TABLE `exercises` (
+ `id` int(11) NOT NULL auto_increment,
+ `name` varchar(255) default NULL,
+ `description` text,
+ `created_at` datetime default NULL,
+ `updated_at` datetime default NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;[0m
+  [4;36;1mSQL (0.070000)[0m   [0;1mCREATE TABLE `programs` (
+ `id` int(11) NOT NULL auto_increment,
+ `name` varchar(255) default NULL,
+ `description` text,
+ `created_at` datetime default NULL,
+ `updated_at` datetime default NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;[0m
+  [4;35;1mSQL (0.080000)[0m   [0mCREATE TABLE `schema_migrations` (
+ `version` varchar(255) NOT NULL,
+ UNIQUE KEY `unique_schema_migrations` (`version`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;[0m
+  [4;36;1mSQL (0.070000)[0m   [0;1mCREATE TABLE `workouts` (
+ `id` int(11) NOT NULL auto_increment,
+ `name` varchar(255) default NULL,
+ `description` text,
+ `created_at` datetime default NULL,
+ `updated_at` datetime default NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;[0m
+  [4;35;1mSQL (0.020000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080723202417');[0m
+  [4;36;1mSQL (0.030000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080723202611');[0m
+  [4;35;1mSQL (0.020000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080723202815');[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateExercises (20080723202417)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePrograms (20080723202611)
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateWorkouts (20080723202815)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateWorkoutExercises (20080723214601)
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.070000)[0m   [0;1mCREATE TABLE `workout_exercises` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `exercise_id` int(11) DEFAULT NULL NULL, `workout_id` int(11) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.090000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080723214601')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `exercises`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `exercises`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `programs`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mdescribe `programs`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `programs`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `workout_exercises`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mSHOW KEYS FROM `workout_exercises`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mdescribe `workouts`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `workouts`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-23 23:50:31) [GET]
+  Session ID: d6d61f42a0ea0f24f8a4b68d82cc5141
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing WorkoutsController#index (for 127.0.0.1 at 2008-07-23 23:51:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8985f78ca586c776983a922fb8cc0cb5adb00f1e
+  Parameters: {"action"=>"index", "controller"=>"workouts"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` [0m
+Rendering template within layouts/workouts
+Rendering workouts/index
+Completed in 0.04000 (25 reqs/sec) | Rendering: 0.02000 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing ProgramsController#index (for 127.0.0.1 at 2008-07-23 23:51:19) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8985f78ca586c776983a922fb8cc0cb5adb00f1e
+  Parameters: {"action"=>"index", "controller"=>"programs"}
+  [4;35;1mProgram Load (0.000000)[0m   [0mSELECT * FROM `programs` [0m
+Rendering template within layouts/programs
+Rendering programs/index
+Completed in 0.23100 (4 reqs/sec) | Rendering: 0.06000 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing ExercisesController#index (for 127.0.0.1 at 2008-07-23 23:52:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8985f78ca586c776983a922fb8cc0cb5adb00f1e
+  Parameters: {"action"=>"index", "controller"=>"exercises"}
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/exercises
+Rendering exercises/index
+Completed in 0.03000 (33 reqs/sec) | Rendering: 0.01000 (33%) | DB: 0.00000 (0%) | 200 OK [http://localhost/exercises]
+
+
+Processing ExercisesController#new (for 127.0.0.1 at 2008-07-23 23:52:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8985f78ca586c776983a922fb8cc0cb5adb00f1e
+  Parameters: {"action"=>"new", "controller"=>"exercises"}
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Rendering template within layouts/exercises
+Rendering exercises/new
+Completed in 0.06000 (16 reqs/sec) | Rendering: 0.02000 (33%) | DB: 0.00000 (0%) | 200 OK [http://localhost/exercises/new]
+
+
+Processing ExercisesController#create (for 127.0.0.1 at 2008-07-23 23:53:22) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "action"=>"create", "exercise"=>{"name"=>"Shoulder Press", "description"=>"Dumbells in hands, palms facing forward, push upwards and then reverse"}, "controller"=>"exercises"}
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mSQL (0.010000)[0m   [0mBEGIN[0m
+  [4;36;1mExercise Create (0.000000)[0m   [0;1mINSERT INTO `exercises` (`name`, `updated_at`, `description`, `created_at`) VALUES('Shoulder Press', '2008-07-23 21:53:22', 'Dumbells in hands, palms facing forward, push upwards and then reverse', '2008-07-23 21:53:22')[0m
+  [4;35;1mSQL (0.040000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/exercises/1
+Completed in 0.11000 (9 reqs/sec) | DB: 0.06000 (54%) | 302 Found [http://localhost/exercises]
+
+
+Processing ExercisesController#show (for 127.0.0.1 at 2008-07-23 23:53:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIidFeGVyY2lzZSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0
+ZWQuBjoKQHVzZWR7BjsHRg==--01306284f9f8621583786c71b369cd18fdbcaaa4
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"exercises"}
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Rendering template within layouts/exercises
+Rendering exercises/show
+Completed in 0.05000 (19 reqs/sec) | Rendering: 0.01000 (20%) | DB: 0.00000 (0%) | 200 OK [http://localhost/exercises/1]
+
+
+Processing ExercisesController#index (for 127.0.0.1 at 2008-07-23 23:53:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIidFeGVyY2lzZSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0
+ZWQuBjoKQHVzZWR7BjsHVA==--a191a90981b6e54bda1a9ba904388979f41aa5e3
+  Parameters: {"action"=>"index", "controller"=>"exercises"}
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/exercises
+Rendering exercises/index
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.04000 (25 reqs/sec) | Rendering: 0.01000 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/exercises]
+
+
+Processing ExercisesController#new (for 127.0.0.1 at 2008-07-23 23:53:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"new", "controller"=>"exercises"}
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Rendering template within layouts/exercises
+Rendering exercises/new
+Completed in 0.05100 (19 reqs/sec) | Rendering: 0.02100 (41%) | DB: 0.01000 (19%) | 200 OK [http://localhost/exercises/new]
+
+
+Processing ExercisesController#create (for 127.0.0.1 at 2008-07-23 23:54:32) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "action"=>"create", "exercise"=>{"name"=>"Bench Press", "description"=>"lie on bench. dumbells next to pecs, palms facing forward towards feet. push up and then reverse."}, "controller"=>"exercises"}
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mExercise Create (0.000000)[0m   [0mINSERT INTO `exercises` (`name`, `updated_at`, `description`, `created_at`) VALUES('Bench Press', '2008-07-23 21:54:32', 'lie on bench. dumbells next to pecs, palms facing forward towards feet. push up and then reverse.', '2008-07-23 21:54:32')[0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/exercises/2
+Completed in 0.29000 (3 reqs/sec) | DB: 0.05000 (17%) | 302 Found [http://localhost/exercises]
+
+
+Processing ExercisesController#show (for 127.0.0.1 at 2008-07-23 23:54:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIidFeGVyY2lzZSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0
+ZWQuBjoKQHVzZWR7BjsHRg==--01306284f9f8621583786c71b369cd18fdbcaaa4
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"exercises"}
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+Rendering template within layouts/exercises
+Rendering exercises/show
+Completed in 0.03000 (33 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01000 (33%) | 200 OK [http://localhost/exercises/2]
+
+
+Processing ExercisesController#index (for 127.0.0.1 at 2008-07-23 23:54:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIidFeGVyY2lzZSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0
+ZWQuBjoKQHVzZWR7BjsHVA==--a191a90981b6e54bda1a9ba904388979f41aa5e3
+  Parameters: {"action"=>"index", "controller"=>"exercises"}
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/exercises
+Rendering exercises/index
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.04000 (24 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01000 (24%) | 200 OK [http://localhost/exercises]
+
+
+Processing WorkoutsController#index (for 127.0.0.1 at 2008-07-24 00:05:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"index", "controller"=>"workouts"}
+  [4;35;1mWorkout Load (0.010000)[0m   [0mSELECT * FROM `workouts` [0m
+Rendering template within layouts/workouts
+Rendering workouts/index
+Completed in 0.03000 (33 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01000 (33%) | 200 OK [http://localhost/workouts]
+
+
+Processing WorkoutsController#new (for 127.0.0.1 at 2008-07-24 00:05:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"new", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+Rendering template within layouts/workouts
+Rendering workouts/new
+Completed in 0.06000 (16 reqs/sec) | Rendering: 0.02000 (33%) | DB: 0.00000 (0%) | 200 OK [http://localhost/workouts/new]
+
+
+Processing WorkoutsController#create (for 127.0.0.1 at 2008-07-24 00:06:01) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "action"=>"create", "controller"=>"workouts", "workout"=>{"name"=>"Chest and Shoulders", "description"=>"Big workout"}}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkout Create (0.000000)[0m   [0mINSERT INTO `workouts` (`name`, `updated_at`, `description`, `created_at`) VALUES('Chest and Shoulders', '2008-07-23 22:06:01', 'Big workout', '2008-07-23 22:06:01')[0m
+  [4;36;1mSQL (0.030000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.07000 (14 reqs/sec) | DB: 0.03000 (42%) | 302 Found [http://localhost/workouts]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:06:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZXb3Jrb3V0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--84e5e36579109a67b7b94457ba483f408c088b25
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.010000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+
+
+ActionView::MissingTemplate (Missing template workouts/show.html.erb in view path C:/RailsApps/iPumpt/app/views):
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/workouts_controller.rb:18:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ProgramsController#index (for 127.0.0.1 at 2008-07-24 00:23:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZXb3Jrb3V0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--afeaa9977968e81bd56313590125c8443b842d02
+  Parameters: {"action"=>"index", "controller"=>"programs"}
+  [4;35;1mProgram Load (0.000000)[0m   [0mSELECT * FROM `programs` [0m
+Rendering template within layouts/programs
+Rendering programs/index
+Completed in 0.16000 (6 reqs/sec) | Rendering: 0.02000 (12%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing WorkoutsController#index (for 127.0.0.1 at 2008-07-24 00:23:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"index", "controller"=>"workouts"}
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` [0m
+Rendering template within layouts/workouts
+Rendering workouts/index
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+Completed in 0.04000 (25 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01000 (25%) | 200 OK [http://localhost/workouts]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:23:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.010000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+
+
+ActionView::MissingTemplate (Missing template workouts/show.html.erb in view path C:/RailsApps/iPumpt/app/views):
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/workouts_controller.rb:18:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:23:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #11 of workouts/show.haml:
+8: 
+9: %p
+10:   %table
+11:     - @exercises.each do |e|
+12:       %tr
+13:         %td= e.name
+14:         %td= link_to 'add to workout', add_exercise_workout_path(@workout, e), :method => :put
+
+    app/views/workouts/show.haml:11:in `_run_plugin_47app47views47workouts47show46haml'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/workouts_controller.rb:18:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:24:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+    /app/controllers/workouts_controller.rb:17:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:25:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.010000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+
+
+ActionView::TemplateError (undefined method `has_key?' for #<Exercise:0x47787d4>) on line #14 of workouts/show.haml:
+11:     - @exercises.each do |e|
+12:       %tr
+13:         %td= e.name
+14:         %td= link_to 'add to workout', add_exercise_workout_path(@workout, e), :method => :put
+15: 
+16: = link_to 'Edit', edit_workout_path(@workout) |
+17: = link_to 'Back', workouts_path
+
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/attribute_methods.rb:251:in `method_missing'
+    (eval):3:in `add_exercise_workout_path'
+    app/views/workouts/show.haml:14:in `_run_plugin_47app47views47workouts47show46haml'
+    app/views/workouts/show.haml:11:in `each'
+    app/views/workouts/show.haml:11:in `_run_plugin_47app47views47workouts47show46haml'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/workouts_controller.rb:19:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:26:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.010000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+ERROR: compiling _run_plugin_47app47views47workouts47show46haml RAISED compile error
+C:/RailsApps/iPumpt/app/views/workouts/show.haml:14: syntax error, unexpected tASSOC, expecting '}'
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</td>\n      <td>", true, 1);haml_temp = link_to 'add to workout', {add_exercise_workout_path(@workout, e), :method => :put};
+                                                                                                                                                                                                                      ^
+Function body: def _run_plugin_47app47views47workouts47show46haml(local_assigns)
+extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :format=>:xhtml, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false, :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;;
+
+_hamlout.push_text("<p>\n  <b>Name:</b>\n  ", nil, 1);haml_temp = h @workout.name;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);
+
+
+_hamlout.push_text("</p>\n<p>\n  <b>Description:</b>\n  ");haml_temp = h @workout.description;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);
+
+
+_hamlout.push_text("</p>\n<p>\n  <table>\n", false, 1); @exercises.each do |e|;
+
+_hamlout.push_text("    <tr>\n      <td>", false, 2);haml_temp = e.name;
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</td>\n      <td>", true, 1);haml_temp = link_to 'add to workout', {add_exercise_workout_path(@workout, e), :method => :put};
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);
+_hamlout.push_text("</td>\n    </tr>\n", true, -1);end;
+_hamlout.push_text("  </table>\n</p>\n", false, -2);haml_temp =  link_to 'Edit', edit_workout_path(@workout) ;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);haml_temp =  link_to 'Back', workouts_path;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);@haml_buffer = @haml_buffer.upper;_erbout;
+end
+Backtrace: C:/RailsApps/iPumpt/app/views/workouts/show.haml:20:in `compile_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+C:/RailsApps/iPumpt/app/controllers/workouts_controller.rb:19:in `show'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+C:/RailsApps/iPumpt/app/views/workouts/show.haml:14: syntax error, unexpected tASSOC, expecting '}'
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</td>\n      <td>", true, 1);haml_temp = link_to 'add to workout', {add_exercise_workout_path(@workout, e), :method => :put};
+                                                                                                                                                                                                                      ^) on line #14 of workouts/show.haml:
+11:     - @exercises.each do |e|
+12:       %tr
+13:         %td= e.name
+14:         %td= link_to 'add to workout', {add_exercise_workout_path(@workout, e), :method => :put}
+15: 
+16: = link_to 'Edit', edit_workout_path(@workout) |
+17: = link_to 'Back', workouts_path
+
+    app/views/workouts/show.haml:20:in `compile_template'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/workouts_controller.rb:19:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:26:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+
+
+ActionView::TemplateError (undefined method `has_key?' for #<Exercise:0x45d6868>) on line #14 of workouts/show.haml:
+11:     - @exercises.each do |e|
+12:       %tr
+13:         %td= e.name
+14:         %td= link_to('add to workout', add_exercise_workout_path(@workout, e), :method => :put)
+15: 
+16: = link_to 'Edit', edit_workout_path(@workout) |
+17: = link_to 'Back', workouts_path
+
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/attribute_methods.rb:251:in `method_missing'
+    (eval):3:in `add_exercise_workout_path'
+    app/views/workouts/show.haml:14:in `_run_plugin_47app47views47workouts47show46haml'
+    app/views/workouts/show.haml:11:in `each'
+    app/views/workouts/show.haml:11:in `_run_plugin_47app47views47workouts47show46haml'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/workouts_controller.rb:19:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:27:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.010000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+
+
+ActionView::TemplateError (undefined method `has_key?' for 1:Fixnum) on line #14 of workouts/show.haml:
+11:     - @exercises.each do |e|
+12:       %tr
+13:         %td= e.name
+14:         %td= link_to('add to workout', add_exercise_workout_path(@workout.id, e.id), :method => :put)
+15: 
+16: = link_to 'Edit', edit_workout_path(@workout) |
+17: = link_to 'Back', workouts_path
+
+    (eval):3:in `add_exercise_workout_path'
+    app/views/workouts/show.haml:14:in `_run_plugin_47app47views47workouts47show46haml'
+    app/views/workouts/show.haml:11:in `each'
+    app/views/workouts/show.haml:11:in `_run_plugin_47app47views47workouts47show46haml'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/workouts_controller.rb:19:in `show'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:27:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.09000 (11 reqs/sec) | Rendering: 0.02000 (22%) | DB: 0.02000 (22%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.021000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.12100 (8 reqs/sec) | Rendering: 0.04000 (33%) | DB: 0.02100 (17%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:38:39) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Create (0.010000)[0m   [0mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:38:40', 1, 1, '2008-07-23 22:38:40')[0m
+  [4;36;1mSQL (0.030000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.83100 (1 reqs/sec) | DB: 0.05000 (6%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.09000 (11 reqs/sec) | Rendering: 0.03000 (33%) | DB: 0.02000 (22%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:38:46) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"2", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Create (0.000000)[0m   [0;1mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:38:46', 2, 1, '2008-07-23 22:38:46')[0m
+  [4;35;1mSQL (0.091000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.19100 (5 reqs/sec) | DB: 0.10100 (52%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=2]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.09000 (11 reqs/sec) | Rendering: 0.04000 (44%) | DB: 0.01000 (11%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:38:49) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Create (0.010000)[0m   [0mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:38:49', 1, 1, '2008-07-23 22:38:49')[0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.14100 (7 reqs/sec) | DB: 0.05000 (35%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.56100 (1 reqs/sec) | Rendering: 0.51100 (91%) | DB: 0.00000 (0%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:38:52) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.010000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.010000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Create (0.000000)[0m   [0;1mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:38:52', 1, 1, '2008-07-23 22:38:52')[0m
+  [4;35;1mSQL (0.030000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.15000 (6 reqs/sec) | DB: 0.05000 (33%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.10000 (10 reqs/sec) | Rendering: 0.04000 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:38:54) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Delete all (0.000000)[0m   [0;1mDELETE FROM `workout_exercises` WHERE (`workout_exercises`.`exercise_id` = 1 AND `workout_exercises`.`workout_id` = 1) [0m
+  [4;35;1mSQL (0.070000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.010000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.19000 (5 reqs/sec) | DB: 0.09000 (47%) | 302 Found [http://localhost/workouts/1/remove_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.10000 (10 reqs/sec) | Rendering: 0.03000 (30%) | DB: 0.01000 (10%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:38:57) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"exercise_id"=>"2", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Delete all (0.000000)[0m   [0;1mDELETE FROM `workout_exercises` WHERE (`workout_exercises`.`exercise_id` = 2 AND `workout_exercises`.`workout_id` = 1) [0m
+  [4;35;1mSQL (0.030000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.12000 (8 reqs/sec) | DB: 0.05000 (41%) | 302 Found [http://localhost/workouts/1/remove_exercise?exercise_id=2]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:38:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.63100 (1 reqs/sec) | Rendering: 0.35000 (55%) | DB: 0.01000 (1%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:39:04) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.010000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Create (0.000000)[0m   [0mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:39:05', 1, 1, '2008-07-23 22:39:05')[0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.15100 (6 reqs/sec) | DB: 0.06000 (39%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:39:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.10000 (10 reqs/sec) | Rendering: 0.03000 (30%) | DB: 0.01000 (10%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:39:08) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Create (0.000000)[0m   [0;1mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:39:08', 1, 1, '2008-07-23 22:39:08')[0m
+  [4;35;1mSQL (0.030000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.12000 (8 reqs/sec) | DB: 0.03000 (25%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:39:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.08000 (12 reqs/sec) | Rendering: 0.03000 (37%) | DB: 0.01000 (12%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:39:10) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Create (0.000000)[0m   [0mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:39:10', 1, 1, '2008-07-23 22:39:10')[0m
+  [4;36;1mSQL (0.020000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.38000 (2 reqs/sec) | DB: 0.05000 (13%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:39:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.12000 (8 reqs/sec) | Rendering: 0.04000 (33%) | DB: 0.02000 (16%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:42:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mWorkoutExercise Load (0.010000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.12100 (8 reqs/sec) | Rendering: 0.05000 (41%) | DB: 0.02000 (16%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:42:43) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"5", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.010000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 5) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Exercise with ID=5):
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1379:in `find_one'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1362:in `find_from_ids'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:537:in `find'
+    /app/controllers/workouts_controller.rb:38:in `remove_exercise'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:43:02) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"5", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Load (0.010000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.`id` = 5) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Update (0.020000)[0m   [0mUPDATE `workout_exercises` SET workout_id = NULL WHERE (workout_id = 1 AND id IN (5)) [0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.13100 (7 reqs/sec) | DB: 0.09000 (68%) | 302 Found [http://localhost/workouts/1/remove_exercise?workout_exercise_id=5]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:43:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.04000 (36%) | DB: 0.03000 (27%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:43:06) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"6", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.`id` = 6) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Update (0.000000)[0m   [0mUPDATE `workout_exercises` SET workout_id = NULL WHERE (workout_id = 1 AND id IN (6)) [0m
+  [4;36;1mSQL (0.030000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.12000 (8 reqs/sec) | DB: 0.05000 (41%) | 302 Found [http://localhost/workouts/1/remove_exercise?workout_exercise_id=6]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:43:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.13000 (7 reqs/sec) | Rendering: 0.05000 (38%) | DB: 0.02000 (15%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:43:08) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"7", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Load (0.000000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.`id` = 7) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Update (0.000000)[0m   [0;1mUPDATE `workout_exercises` SET workout_id = NULL WHERE (workout_id = 1 AND id IN (7)) [0m
+  [4;35;1mSQL (0.040000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.12000 (8 reqs/sec) | DB: 0.06000 (49%) | 302 Found [http://localhost/workouts/1/remove_exercise?workout_exercise_id=7]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:43:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.09000 (11 reqs/sec) | Rendering: 0.04000 (44%) | DB: 0.01000 (11%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:43:10) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"exercise_id"=>"2", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find WorkoutExercise without an ID):
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1360:in `find_from_ids'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:537:in `find'
+    /app/controllers/workouts_controller.rb:27:in `add_exercise'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    C:/ruby/lib/ruby/gems/1.8/gems/haml-2.0.1/lib/sass/plugin/rails.rb:19:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:282:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `each'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/configurator.rb:281:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:128:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel/command.rb:212:in `run'
+    C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/bin/mongrel_rails:281
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    C:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+Completed in 0.10000 (9 reqs/sec) | Rendering: 0.05000 (50%) | DB: 0.01000 (9%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:44:09) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--c0299de418c99e610003e0adc1c3a5478c467112
+  Parameters: {"exercise_id"=>"2", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.020000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Create (0.010000)[0m   [0;1mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:44:09', 2, 1, '2008-07-23 22:44:09')[0m
+  [4;35;1mSQL (0.041000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.14100 (7 reqs/sec) | DB: 0.09100 (64%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=2]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mWorkoutExercise Load (0.000000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+Completed in 0.10000 (10 reqs/sec) | Rendering: 0.04000 (40%) | DB: 0.02000 (20%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:44:12) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Create (0.010000)[0m   [0;1mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:44:13', 1, 1, '2008-07-23 22:44:13')[0m
+  [4;35;1mSQL (0.030000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.40100 (2 reqs/sec) | DB: 0.06000 (14%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mWorkoutExercise Load (0.000000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.04000 (36%) | DB: 0.03000 (27%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:44:15) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"2", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Create (0.010000)[0m   [0mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:44:15', 2, 1, '2008-07-23 22:44:15')[0m
+  [4;36;1mSQL (0.030000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.18100 (5 reqs/sec) | DB: 0.05000 (27%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=2]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mExercise Load (0.010000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+Completed in 0.12000 (8 reqs/sec) | Rendering: 0.04000 (33%) | DB: 0.02000 (16%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:44:19) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"2", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.020000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mSQL (0.010000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Create (0.010000)[0m   [0mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:44:19', 2, 1, '2008-07-23 22:44:19')[0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.16000 (6 reqs/sec) | DB: 0.09000 (56%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=2]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.020000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+Completed in 0.59000 (1 reqs/sec) | Rendering: 0.06000 (10%) | DB: 0.02000 (3%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#add_exercise (for 127.0.0.1 at 2008-07-24 00:44:23) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"exercise_id"=>"1", "authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "action"=>"add_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Columns (0.020000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Create (0.000000)[0m   [0;1mINSERT INTO `workout_exercises` (`updated_at`, `exercise_id`, `workout_id`, `created_at`) VALUES('2008-07-23 22:44:24', 1, 1, '2008-07-23 22:44:24')[0m
+  [4;35;1mSQL (0.040000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.15000 (6 reqs/sec) | DB: 0.08000 (53%) | 302 Found [http://localhost/workouts/1/add_exercise?exercise_id=1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHRg==--0ce5e468e949e495e5ca66e9466a3a0f31d18868
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mWorkoutExercise Load (0.000000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.14000 (7 reqs/sec) | Rendering: 0.07000 (50%) | DB: 0.03000 (21%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:44:26) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiFFeGVyY2lzZSBhZGRlZCBzdWNjZXNzZnVsbHkuBjoK
+QHVzZWR7BjsHVA==--491c8f665e7a6dde7b3c06fa1e2447b52441f78b
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"9", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.`id` = 9) [0m
+  [4;36;1mSQL (0.010000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Update (0.000000)[0m   [0mUPDATE `workout_exercises` SET workout_id = NULL WHERE (workout_id = 1 AND id IN (9)) [0m
+  [4;36;1mSQL (0.030000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.10000 (9 reqs/sec) | DB: 0.05000 (49%) | 302 Found [http://localhost/workouts/1/remove_exercise?workout_exercise_id=9]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.12000 (8 reqs/sec) | Rendering: 0.06000 (49%) | DB: 0.01000 (8%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:44:29) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"11", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.`id` = 11) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mWorkoutExercise Update (0.000000)[0m   [0mUPDATE `workout_exercises` SET workout_id = NULL WHERE (workout_id = 1 AND id IN (11)) [0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.57100 (1 reqs/sec) | DB: 0.05000 (8%) | 302 Found [http://localhost/workouts/1/remove_exercise?workout_exercise_id=11]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.010000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.13100 (7 reqs/sec) | Rendering: 0.04100 (31%) | DB: 0.03000 (22%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#remove_exercise (for 127.0.0.1 at 2008-07-24 00:44:31) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"authenticity_token"=>"40f3fc1c5edc87af90417a25d16ce04fd72a175a", "_method"=>"put", "workout_exercise_id"=>"8", "action"=>"remove_exercise", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mWorkoutExercise Load (0.010000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.`id` = 8) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mWorkoutExercise Update (0.000000)[0m   [0;1mUPDATE `workout_exercises` SET workout_id = NULL WHERE (workout_id = 1 AND id IN (8)) [0m
+  [4;35;1mSQL (0.030000)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.010000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/workouts/1
+Completed in 0.12000 (8 reqs/sec) | DB: 0.05000 (41%) | 302 Found [http://localhost/workouts/1/remove_exercise?workout_exercise_id=8]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:44:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdG--216bc8df2f7d6fd6e0f0d3e2f0abfdeedb8b06e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;36;1mWorkout Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workouts`[0m
+  [4;35;1mWorkout Load (0.000000)[0m   [0mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;36;1mWorkoutExercise Load (0.000000)[0m   [0;1mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;35;1mWorkoutExercise Columns (0.010000)[0m   [0mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;36;1mExercise Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `exercises`[0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.12000 (8 reqs/sec) | Rendering: 0.06000 (50%) | DB: 0.02000 (16%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing WorkoutsController#show (for 127.0.0.1 at 2008-07-24 00:45:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZWM5NTg1MWRkYTA3MWM4YWZkYmZkN2NmZGMwNjk0
+YTIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNFeGVyY2lzZSByZW1vdmVkIHN1Y2Nlc3NmdWxseS4G
+OgpAdXNlZHsGOwdU--8e3f382fccad412ba2c6e8bb7f3f38a73cf92ff2
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"workouts"}
+  [4;35;1mWorkout Columns (0.080000)[0m   [0mSHOW FIELDS FROM `workouts`[0m
+  [4;36;1mWorkout Load (0.000000)[0m   [0;1mSELECT * FROM `workouts` WHERE (`workouts`.`id` = 1) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` [0m
+Rendering template within layouts/workouts
+Rendering workouts/show
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT `exercises`.* FROM `exercises` INNER JOIN workout_exercises ON exercises.id = workout_exercises.exercise_id WHERE ((`workout_exercises`.workout_id = 1)) [0m
+  [4;35;1mWorkoutExercise Load (0.000000)[0m   [0mSELECT * FROM `workout_exercises` WHERE (`workout_exercises`.workout_id = 1) [0m
+  [4;36;1mWorkoutExercise Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `workout_exercises`[0m
+  [4;35;1mExercise Columns (0.000000)[0m   [0mSHOW FIELDS FROM `exercises`[0m
+  [4;36;1mExercise Load (0.000000)[0m   [0;1mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 2) [0m
+  [4;35;1mExercise Load (0.000000)[0m   [0mSELECT * FROM `exercises` WHERE (`exercises`.`id` = 1) [0m
+Completed in 0.19100 (5 reqs/sec) | Rendering: 0.05000 (26%) | DB: 0.09000 (47%) | 200 OK [http://localhost/workouts/1]
+
+
+Processing ProgramsController#index (for 127.0.0.1 at 2008-07-25 20:07:22) [GET]
+  Session ID: 3e9b3d8c875d832c34bd606708ed3c90
+  Parameters: {"action"=>"index", "controller"=>"programs"}
+  [4;36;1mSQL (0.060000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.020000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProgram Load (0.120000)[0m   [0;1mSELECT * FROM `programs` [0m
+Rendering template within layouts/programs
+Rendering programs/index
+Completed in 0.29000 (3 reqs/sec) | Rendering: 0.05000 (17%) | DB: 0.20000 (68%) | 200 OK [http://localhost/]
+
+
+Processing ProgramsController#index (for 127.0.0.1 at 2008-07-25 23:07:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8985f78ca586c776983a922fb8cc0cb5adb00f1e
+  Parameters: {"action"=>"index", "controller"=>"programs"}
+  [4;36;1mSQL (0.150000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.050000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProgram Load (0.450000)[0m   [0;1mSELECT * FROM `programs` [0m
+Rendering template within layouts/programs
+Rendering programs/index
+Completed in 0.67100 (1 reqs/sec) | Rendering: 0.04000 (5%) | DB: 0.65000 (96%) | 200 OK [http://localhost/]
+
+
+Processing ProgramsController#new (for 127.0.0.1 at 2008-07-25 23:07:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--8985f78ca586c776983a922fb8cc0cb5adb00f1e
+  Parameters: {"action"=>"new", "controller"=>"programs"}
+  [4;35;1mProgram Columns (0.081000)[0m   [0mSHOW FIELDS FROM `programs`[0m
+Rendering template within layouts/programs
+Rendering programs/new
+Completed in 0.19100 (5 reqs/sec) | Rendering: 0.03000 (15%) | DB: 0.08100 (42%) | 200 OK [http://localhost/programs/new]
+
+
+Processing ProgramsController#create (for 127.0.0.1 at 2008-07-25 23:07:37) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTg3NzQ5MjhhZjljN2Q4ODI5NzkyMTc0MjYwYzk1
+NGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--d99d4fc5b570f271fc603a8497a69c4f1a7b7cfd
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"53190b4b9fd02bab9691e071fbfaebc915d0cae2", "action"=>"create", "controller"=>"programs", "program"=>{"name"=>"functional training", "description"=>"My basic functional training program."}}
+  [4;36;1mProgram Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `programs`[0m
+  [4;35;1mSQL (0.020000)[0m   [0mBEGIN[0m
+  [4;36;1mProgram Create (0.080000)[0m   [0;1mINSERT INTO `programs` (`name`, `updated_at`, `description`, `created_at`) VALUES('functional training', '2008-07-25 21:07:37', 'My basic functional training program.', '2008-07-25 21:07:37')[0m
+  [4;35;1mSQL (0.041000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/programs/1
+Completed in 0.18100 (5 reqs/sec) | DB: 0.15100 (83%) | 302 Found [http://localhost/programs]
+
+
+Processing ProgramsController#show (for 127.0.0.1 at 2008-07-25 23:07:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTg3NzQ5MjhhZjljN2Q4ODI5NzkyMTc0MjYwYzk1
+NGUiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZQcm9ncmFtIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--9220510876b1a9516c75a80cd0f4f1a98c40a8c0
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"programs"}
+  [4;36;1mProgram Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `programs`[0m
+  [4;35;1mProgram Load (0.030000)[0m   [0mSELECT * FROM `programs` WHERE (`programs`.`id` = 1) [0m
+Rendering template within layouts/programs
+Rendering programs/show
+Completed in 0.08000 (12 reqs/sec) | Rendering: 0.03000 (37%) | DB: 0.03000 (37%) | 200 OK [http://localhost/programs/1]

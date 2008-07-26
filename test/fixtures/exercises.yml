@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+shoulder_press:
+  name: 'Dumbell Shoulder Press'
+  description: 'take a dumbell in each hand. Bring them in line with your ears, palms facing forward. Start by pressing the weights upwards toward the ceiling, then lower them to the original position.'
+
+bench_press:
+  name: 'Bench Press'
+  description: 'Lie on a flat bench with a dumbell in each hand. Press the dumbells toward the ceiling and then back into the original position.'

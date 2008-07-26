@@ -1,0 +1,22 @@
+<h1>Listing workouts</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% for workout in @workouts %>
+  <tr>
+    <td><%=h workout.name %></td>
+    <td><%=h workout.description %></td>
+    <td><%= link_to 'Show', workout %></td>
+    <td><%= link_to 'Edit', edit_workout_path(workout) %></td>
+    <td><%= link_to 'Destroy', workout, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New workout', new_workout_path %>

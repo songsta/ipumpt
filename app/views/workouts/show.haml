@@ -1,0 +1,26 @@
+%p
+  %b Name:
+  =h @workout.name
+
+%p
+  %b Description:
+  =h @workout.description
+
+- if !@workout.exercises.blank?
+  %p 
+    %b Exercises in Workout
+    %table
+      - @workout.workout_exercises.each do |e|
+        %tr
+          %td= e.exercise.name
+          %td= link_to('remove from workout', remove_exercise_workout_path(@workout.id, :workout_exercise_id => e.id), :method => :put)
+%p 
+  %b Available exercises
+  %table
+    - @exercises.each do |e|
+      %tr
+        %td= e.name
+        %td= link_to('add to workout', add_exercise_workout_path(@workout.id, :exercise_id => e.id), :method => :put)
+
+= link_to 'Edit', edit_workout_path(@workout) |
+= link_to 'Back', workouts_path
